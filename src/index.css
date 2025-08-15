@@ -1,0 +1,72 @@
+
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* ===== StudyFlow Custom Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #d1d1d1, #4d2c5e); /* grey to brand purple */
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #ff7426, #4d2c5e); /* orange and purple */
+  box-shadow: 0 0 4px rgba(255, 116, 38, 0.5);
+}
+
+/* Firefox fallback */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4d2c5e transparent;
+}
+
+/* ===== Dark Mode Scrollbar ===== */
+body.dark-mode ::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #888, #a675c6); /* grayish to soft purple */
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.08);
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #ff7426, #a675c6); /* orange + light purple */
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode * {
+  scrollbar-color: #a675c6 transparent;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Base weight */
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf8ee; /* Optional StudyFlow-style */
+  color: #2e2e2e;
+}
