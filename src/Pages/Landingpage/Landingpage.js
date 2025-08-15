@@ -6,7 +6,6 @@ import '../Landingpage/Landingpage.css';
 import { MdLightMode, MdDarkMode } from "react-icons/md";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import { FaRocket, FaBook, FaLightbulb, FaTasks, FaUserGraduate, FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube, } from 'react-icons/fa';
-import { useNavigate } from 'react-router-dom';
 import { DarkModeContext } from '../../context/DarkModeContext';
 
 function Landingpage(){
