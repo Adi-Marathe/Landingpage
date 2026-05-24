@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# StudyFlow Landing Page 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Full Project Live **: [https://study-flow-inky.vercel.app/](https://study-flow-inky.vercel.app/)
 
-## Available Scripts
+## 🎨 Previews
 
-In the project directory, you can run:
+### Light Mode
+![StudyFlow Landing Page - Light Mode](./src/Assets/images/screencapture-localhost-3000-2025-08-20-21_34_28.png)
 
-### `npm start`
+### Dark Mode
+![StudyFlow Landing Page - Dark Mode](./src/Assets/images/screencapture-localhost-3000-2025-08-20-21_35_02.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📖 Overview
+This repository contains the standalone frontend code for the **StudyFlow Landing Page**. It was extracted into a separate React application specifically for frontend deployment testing on Vercel. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+StudyFlow is an all-in-one digital workspace designed to help students focus, learn, and collaborate through AI-powered productivity tools. This landing page serves as the entry point, showcasing the platform's powerful features and sleek design.
 
-### `npm test`
+## ✨ Features
+- **Modern & Responsive UI**: Fully responsive design that looks great on desktops, tablets, and mobile devices.
+- **Dark/Light Mode**: Built-in toggle for seamless theme switching.
+- **Interactive Animations**: Integrated Lottie animations for an engaging user experience.
+- **Dynamic Routing**: Ready for navigation with React Router integration.
+- **Clean Architecture**: Component-based structure utilizing React-Bootstrap.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
+- **Frontend Framework**: React.js
+- **UI Library**: React-Bootstrap & Bootstrap
+- **Icons**: React-Icons
+- **Animations**: @lottiefiles/dotlottie-react
+- **Routing**: React Router DOM
 
-### `npm run build`
+## 🚀 Quick Start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow these steps to run the landing page locally:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/studyflow-landing-page.git
+cd studyflow-landing-page
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Install dependencies
+```bash
+npm install
+```
 
-### `npm run eject`
+### 3. Start the development server
+```bash
+npm start
+```
+The application will be available at `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🌐 Deployment (Vercel)
+This application is deployed on [Vercel](https://vercel.com/):
+- **Live Link**: [https://study-flow-inky.vercel.app/](https://study-flow-inky.vercel.app/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To deploy your own version:
+1. Push your code to a GitHub repository.
+2. Import the repository into Vercel.
+3. Keep the default build settings (Framework Preset: **Create React App**).
+4. Click **Deploy**.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/studyflow-landing-page/issues).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
