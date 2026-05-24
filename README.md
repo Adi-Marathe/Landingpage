@@ -1,14 +1,12 @@
 # StudyFlow Landing Page 🚀
 
-**Full Project Live**: [https://study-flow-inky.vercel.app/](https://study-flow-inky.vercel.app/)
+**Full Project Live Demo**: [https://study-flow-inky.vercel.app/](https://study-flow-inky.vercel.app/)
 
 ## 🎨 Previews
 
-### Light Mode
-![StudyFlow Landing Page - Light Mode](./src/Assets/images/screencapture-localhost-3000-2025-08-20-21_34_28.png)
-
-### Dark Mode
-![StudyFlow Landing Page - Dark Mode](./src/Assets/images/screencapture-localhost-3000-2025-08-20-21_35_02.png)
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| <img src="./src/Assets/images/screencapture-localhost-3000-2025-08-20-21_34_28.png" alt="StudyFlow Landing Page - Light Mode"> | <img src="./src/Assets/images/screencapture-localhost-3000-2025-08-20-21_35_02.png" alt="StudyFlow Landing Page - Dark Mode"> |
 
 ## 📖 Overview
 This repository contains the standalone frontend code for the **StudyFlow Landing Page**. It was extracted into a separate React application specifically for frontend deployment testing on Vercel. 
