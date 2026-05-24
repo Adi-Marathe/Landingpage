@@ -1,6 +1,6 @@
 # StudyFlow Landing Page 🚀
 
-**Full Project Live **: [https://study-flow-inky.vercel.app/](https://study-flow-inky.vercel.app/)
+**Full Project Live**: [https://study-flow-inky.vercel.app/](https://study-flow-inky.vercel.app/)
 
 ## 🎨 Previews
 
